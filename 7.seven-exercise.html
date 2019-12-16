@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        body{
+            background-color:#EDEEF2;
+        }   /* web page background */
+        * {
+            box-sizing: border-box
+        }   /* calculates total width and height of every element */
+        div{
+            background-color:#3F3F3F;
+            margin: 0 auto;
+            width: 400px;
+            text-align: center;
+            color: black;
+            padding: 20px;
+        }   /* style for the container */
+        .signup{
+            width: auto;
+            color:lightgrey;
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }   /* Sign up text */
+        input{
+            width: 300px;
+            background-color:#3F3F3F;
+            color:lightgrey;
+            font-family: Arial, Helvetica, sans-serif;
+            padding:10px;
+            text-align: left;
+            margin:10px;
+            border: 1px solid lightgrey;
+            border-radius: 4px;
+            font-size: 15px;
+        }   /* style for every input*/
+        button{
+            width: 300px;
+            background-color:#BAC873;
+            border-radius: 4px;
+            text-align: center;
+            color: #3F3F3F;
+            padding:10px;
+            border: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            margin:10px;
+        }   /* style for every button*/
+    </style>
+    <head>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+            <meta charset="UTF-8">
+            <!-- Google fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+        <title>
+            homework-2 7th exercise
+        </title>
+    </head>
+    <body>
+        <div>
+            <div class="signup">Sign Up</div>
+            <form>
+                <input type="text" name="firstname" placeholder="Name">
+                <input type="text" name="username" placeholder="Username">
+                <input type="email" name="email" placeholder="Email">
+                <input type="password" name="password" placeholder="Password">
+                <input type="password" name="confirmpassword" placeholder="Confirm Password">
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </body>
+</html>
